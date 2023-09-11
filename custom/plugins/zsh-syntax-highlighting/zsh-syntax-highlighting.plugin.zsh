@@ -1,1 +1,2 @@
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# $HOMEBREW_PREFIX=/opt/homebrew
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
