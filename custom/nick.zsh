@@ -27,3 +27,4 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias af="alias-finder -e $1 && alias-finder -l $1"
 
 ZSH_ALIAS_FINDER_AUTOMATIC=true
+ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/highlighters
