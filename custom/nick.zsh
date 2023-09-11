@@ -15,7 +15,6 @@ source ${ZSH}/plugins/gitignore/gitignore.plugin.zsh
 source ${ZSH}/plugins/mvn/mvn.plugin.zsh
 source ${ZSH}/plugins/terraform/terraform.plugin.zsh
 source ${ZSH}/custom/plugins/alias-finder/alias-finder.plugin.zsh
-source ${ZSH}/custom/plugins/java/java.plugin.zsh
 if [[ "$OSTYPE" = darwin* ]]; then
   source ${ZSH}/custom/plugins/mac/mac.plugin.zsh
 fi
