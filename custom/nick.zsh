@@ -5,6 +5,9 @@ export ZSH_ALIAS_FINDER_AUTOMATIC=true
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/highlighters
 export NVM_HOMEBREW=$(brew --prefix nvm)
 
+# Load NVM
+[ -s "$NVM_HOMEBREW/nvm.sh" ] && \. "$NVM_HOMEBREW/nvm.sh"
+
 # enable once https://github.com/robbyrussell/oh-my-zsh/pull/8062 is merged
 #plugins=(alias-finder autojump brew extract git gitignore java mac mvn zsh-autosuggestions zsh-syntax-highlighting)
 
