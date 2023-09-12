@@ -7,6 +7,8 @@ export NVM_HOMEBREW=$(brew --prefix nvm)
 
 # Load NVM
 [ -s "$NVM_HOMEBREW/nvm.sh" ] && \. "$NVM_HOMEBREW/nvm.sh"
+# Load  NVM Bash Completion
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
 
 # enable once https://github.com/robbyrussell/oh-my-zsh/pull/8062 is merged
 #plugins=(alias-finder autojump brew extract git gitignore java mac mvn zsh-autosuggestions zsh-syntax-highlighting)
