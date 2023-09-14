@@ -23,6 +23,7 @@ source ${ZSH}/plugins/gitignore/gitignore.plugin.zsh
 source ${ZSH}/plugins/npm/npm.plugin.zsh
 source ${ZSH}/plugins/nvm/nvm.plugin.zsh
 source ${ZSH}/plugins/terraform/terraform.plugin.zsh
+source ${ZSH}/plugins/yarn/yarn.plugin.zsh
 source ${ZSH}/custom/plugins/alias-finder/alias-finder.plugin.zsh
 if [[ "$OSTYPE" = darwin* ]]; then
   source ${ZSH}/custom/plugins/mac/mac.plugin.zsh
