@@ -20,6 +20,7 @@ source ${ZSH}/plugins/brew/brew.plugin.zsh
 source ${ZSH}/plugins/extract/extract.plugin.zsh
 source ${ZSH}/plugins/gh/gh.plugin.zsh
 source ${ZSH}/plugins/gitignore/gitignore.plugin.zsh
+source ${ZSH}/plugins/npm/npm.plugin.zsh
 source ${ZSH}/plugins/nvm/nvm.plugin.zsh
 source ${ZSH}/plugins/terraform/terraform.plugin.zsh
 source ${ZSH}/custom/plugins/alias-finder/alias-finder.plugin.zsh
