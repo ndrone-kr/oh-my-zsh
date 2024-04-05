@@ -33,7 +33,7 @@ source ${ZSH}/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plu
 
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
-alias python=/usr/bin/python3
-alias pip=/opt/homebrew/bin/pip3
+alias python="python3"
+alias pip="pip3"
 
 alias af="alias-finder -e $1 && alias-finder -l $1"
