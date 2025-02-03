@@ -37,3 +37,5 @@ alias python="python3"
 alias pip="pip3"
 
 alias af="alias-finder -e $1 && alias-finder -l $1"
+
+export PATH="/opt/homebrew/opt/pnpm@9/bin:$PATH"
